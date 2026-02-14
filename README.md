@@ -211,94 +211,16 @@ Elements are not arranged in sequential order.
 - **Neural Networks**: Graphs (computational graphs)
 - **Training Data**: Arrays with efficient indexing
 
----
-
-## Repository Structure
-
-```
-├── README.md                          # This file
-├── 1_arrays/
-│   ├── array_implementation.py
-│   ├── applications.py
-│   └── algorithms.py
-├── 2_linked_lists/
-│   ├── singly_linked_list.py
-│   ├── doubly_linked_list.py
-│   ├── circular_linked_list.py
-│   ├── applications.py
-│   └── algorithms.py
-├── 3_stacks/
-│   ├── stack_implementation.py
-│   ├── applications.py
-│   └── algorithms.py
-├── 4_queues/
-│   ├── queue_implementation.py
-│   ├── circular_queue.py
-│   ├── priority_queue.py
-│   ├── applications.py
-│   └── algorithms.py
-├── 5_trees/
-│   ├── binary_tree.py
-│   ├── binary_search_tree.py
-│   ├── avl_tree.py
-│   ├── applications.py
-│   └── algorithms.py
-├── 6_graphs/
-│   ├── graph_adjacency_list.py
-│   ├── graph_adjacency_matrix.py
-│   ├── applications.py
-│   └── algorithms.py
-└── examples/
-    └── system_integration_examples.py
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-```bash
-pip install -r requirements.txt
-```
-
-### Running Examples
-```bash
-# Arrays
-python 1_arrays/array_implementation.py
-
-# Linked Lists
-python 2_linked_lists/singly_linked_list.py
-
-# Stacks
-python 3_stacks/stack_implementation.py
-
-# Queues
-python 4_queues/queue_implementation.py
-
-# Trees
-python 5_trees/binary_search_tree.py
-
-# Graphs
-python 6_graphs/graph_adjacency_list.py
-```
-
----
-
-## Time and Space Complexity Summary
-
-| Data Structure | Access | Search | Insertion | Deletion | Space |
-|---------------|--------|--------|-----------|----------|-------|
-| Array         | O(1)   | O(n)   | O(n)      | O(n)     | O(n)  |
-| Linked List   | O(n)   | O(n)   | O(1)      | O(1)     | O(n)  |
-| Stack         | O(n)   | O(n)   | O(1)      | O(1)     | O(n)  |
-| Queue         | O(n)   | O(n)   | O(1)      | O(1)     | O(n)  |
-| BST           | O(log n)| O(log n)| O(log n) | O(log n) | O(n)  |
-| Graph (Adj List)| -    | O(V+E) | O(1)      | O(E)     | O(V+E)|
-
----
-
 ## Contributors
-- Your Group Members
+Jimmy 
+Collins 
+Wallcott 
+Maxwell 
+Elton 
+Vince
+Eddie
+Enock
+Alvin
 
 ## References
 - Course Notes from vlms.mku.ac.ke
